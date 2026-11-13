@@ -7,10 +7,10 @@ const shots = (folder: string, files: string[]): MediaItem[] =>
 const video = (id: string): MediaItem => ({ source: `https://www.youtube-nocookie.com/embed/${id}`, type: MediaType.YouTube });
 
 export const PersonalInfo: AboutMeData = {
-  name: "Your Name",
+  name: "Sidharth S",
   role: "Game Developer",
   logo: undefined, // optional, e.g. "/images/logo.png". Without one, your initials are shown
-  headline: "Hi, I'm Your Name. I make",
+  headline: "Hi, I'm Sidharth S. I make",
   headlineHighlight: "games people love to play.",
   introduction: "A short intro about you: what you make, the engine and languages you use, and what you're working on right now.",
   image: "/images/Profile.jpg",
