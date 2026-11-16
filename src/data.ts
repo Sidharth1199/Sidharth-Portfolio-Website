@@ -10,9 +10,9 @@ export const PersonalInfo: AboutMeData = {
   name: "Sidharth S",
   role: "Game Developer",
   logo: undefined, // optional, e.g. "/images/logo.png". Without one, your initials are shown
-  headline: "Hi, I'm Sidharth S. I make",
-  headlineHighlight: "games people love to play.",
-  introduction: "A short intro about you: what you make, the engine and languages you use, and what you're working on right now.",
+  headline: "Hi, I'm Sidharth S.",
+  headlineHighlight: "I used to blame bugs in games. Now I create them.",
+  introduction: "I'm a Unity Game Developer passionate about building immersive gameplay experiences and bringing interactive worlds to life. I primarily work with Unity and C#.",
   image: "/images/Profile.jpg",
   aboutImage: undefined, // optional second photo for the About section, defaults to image
   cvUrl: "/files/YOUR_CV.pdf", // set to undefined to hide the CV buttons
@@ -27,8 +27,7 @@ export const PersonalInfo: AboutMeData = {
     { title: "Engineering", items: ["C#", "C++", "TypeScript", "Git"] },
   ],
   stats: [
-    { value: "5+", label: "Years making games" },
-    { value: "4", label: "Games released" },
+    { value: "4+", label: "Years making games" },
     { value: "PC · Mobile", label: "Platforms" },
   ],
   contactText: "I'm open to game development roles and collaborations. If you're hiring or building something cool, reach out.",
